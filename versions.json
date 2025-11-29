@@ -1,0 +1,49 @@
+{
+  "version_info": {
+    "latest_version": "2.1.5",
+    "build_number": 428,
+    "release_date": "2024-03-15",
+    "minimum_required_version": "1.8.0",
+    "update_type": "minor",
+    "is_mandatory": false
+  },
+  "platforms": {
+    "windows": {
+      "download_url": "https://example.com/download/app-v2.1.5-win.exe",
+      "file_size": "85.2 MB",
+      "checksum": "sha256:f47ac10b58cc50eeeb73a4345f35eb83cdb89d6a2487b89b7979e85598188045"
+    },
+    "macos": {
+      "download_url": "https://example.com/download/app-v2.1.5-mac.dmg",
+      "file_size": "92.5 MB",
+      "checksum": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "linux": {
+      "download_url": "https://example.com/download/app-v2.1.5-linux.tar.gz",
+      "file_size": "78.1 MB",
+      "checksum": "sha256:7d865e959b2466918c9863afca942d0fb8d80f3fc076606f07556eb6782a273b"
+    }
+  },
+  "release_notes": {
+    "en": [
+      "Fixed critical security vulnerability in authentication module",
+      "Improved performance of data processing algorithms",
+      "Added support for new file format (.xyz)",
+      "Updated UI components for better accessibility"
+    ],
+    "zh": [
+      "修复了认证模块中的严重安全漏洞",
+      "提升了数据处理算法的性能",
+      "新增对新文件格式(.xyz)的支持",
+      "更新UI组件以提升可访问性"
+    ]
+  },
+  "compatibility": {
+    "supported_oses": ["Windows 10+", "macOS 12+", "Ubuntu 20.04+", "CentOS 8+"],
+    "required_dependencies": ["Python 3.8+", "Node.js 16+"]
+  },
+  "metadata": {
+    "last_updated": "2024-03-15T14:30:00Z",
+    "api_version": "1.0"
+  }
+}
